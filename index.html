@@ -1,0 +1,587 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>kasper</title>
+
+    <!-- render all elements nomrally in all browsers -->
+    <link rel="stylesheet" href="css/normalise.css" />
+    <!-- font awsome Library -->
+    <link rel="stylesheet" href="css/all.min.css" />
+    <!-- main css file -->
+    <link rel="stylesheet" href="css/kasper.css" />
+    <!-- google font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Work+Sans:wght@200;300;500;600;800&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!-- start header -->
+    <header>
+      <div class="container">
+        <a href="#" class="logo" text="logo">
+          <img src="images/logo.png" alt="logo" />
+        </a>
+        <nav  class="link" id="myLinks">
+          <a href="javascript:void(0);" class="icon" onclick="myFunction()" title="function">
+          <i class="fas fa-bars toggle"></i>
+          </a>
+          <ul>
+            <li>
+              <a href="#" class="active">Home</a>
+            </li>
+            <li>
+              <a href="#">Services</a>
+            </li>
+            <li>
+              <a href="#">Portfolio</a>
+            </li>
+            <li>
+              <a href="#">About</a>
+            </li>
+            <li>
+              <a href="#">Pricing</a>
+            </li>
+            <li>
+              <a href="#">Contact</a>
+            </li>
+          </ul>
+
+          <div class="form">
+           
+              <i class="fas fa-search"></i>
+            </a>
+          </div>
+        </nav>
+      </div>
+
+    </header>
+          <script>
+            function myFunction() {
+              var x = document.getElementById("myLinks");
+              if (x.className === "link") {
+                x.className += " responsive";
+              } else {
+                x.className = "link";
+              }
+            }
+          </script>
+    <!-- end header -->
+
+
+    <!-- start landing -->
+    <div class="landing">
+      <div class="overlay">
+        <div class="text">
+          <div class="content">
+            <h2>
+              Hello World! <br/>
+              We Are kasper We Make Art.
+            </h2>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Pariatur aliquid corporis placeat molestias aut atque et error! Perferendis, ipsum? Expedita ipsa quidem sunt inventore aperiam exercitationem esse nisi minima quisquam?</p>
+          </div>
+        </div>
+        <i class="fas fa-angle-left change-background left fa-2x"></i>
+        <i class="fas fa-angle-right change-background right fa-2x"></i>
+        <ul class="bullets">
+          <li></li>
+          <li class="active"></li>
+          <li></li>
+        </ul>
+      </div>
+
+    </div>
+    <!-- end landing -->
+    <!-- start services -->
+    <div class="services">
+      <div class="container">
+        <div class="section">
+          <div class="main-heading">
+            <h2>Services</h2>
+            <p>
+              Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem. Mauris blandit aliquet elit, eget
+              tincidunt.
+            </p>
+          </div>
+          <div class="services-container">
+            
+            <div class="srv-box">
+              <i class="fas fa-desktop fa-3x"></i>
+              <div class="text">
+                <h3>vorem amet accumsan</h3>
+                <p>
+                  Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem. Mauris blandit aliquet elit, eget
+                  tincidunt
+                </p>
+              </div>
+            </div>
+         
+
+            <div class="srv-box">
+              <i class="fas fa-camera fa-3x"></i>
+              <div class="text">
+                <h3>vorem amet accumsan</h3>
+                <p>
+                  Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem. Mauris blandit aliquet elit, eget
+                  tincidunt
+                </p>
+              </div>
+            </div>
+          
+
+            <div class="srv-box">
+              <i class="fas fa-pencil-ruler fa-3x"></i>
+              <div class="text">
+                <h3>vorem amet accumsan</h3>
+                <p>
+                  Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem. Mauris blandit aliquet elit, eget
+                  tincidunt
+                </p>
+              </div>
+            </div>
+
+            <div class="srv-box">
+              <i class="fas fa-cog fa-3x"></i>
+              <div class="text">
+                <h3>vorem amet accumsan</h3>
+                <p>
+                  Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem. Mauris blandit aliquet elit, eget
+                  tincidunt
+                </p>
+              </div>
+            </div>
+          
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- end services -->
+<!-- start design -->
+    <div class="design">
+      <div class="image">
+<img src="images/mobile.png" alt="mobile">
+      </div>
+      <div class="text">
+        <h2>our design comes with...</h2>
+        
+          <ul>
+            <li>Responsive Design</li>
+            <li>Modern and Clean</li>
+            <li>Clean Code</li>
+            <li>Browser Friendly</li>
+          </ul>
+        
+      </div>
+    </div>
+<!-- end design -->
+
+
+
+  <!-- start portfolio -->
+  <div class="portfolio">
+    <div class="container">
+      
+        <div class="main-heading">
+          <h2>Portfolio</h2>
+          <p>
+            Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem. Mauris blandit aliquet elit, eget
+            tincidunt.
+          </p>
+        </div>
+        <ul class="shuffle">
+          <li class="active">All</li>
+          <li>App</li>
+          <li>photo</li>
+          <li>Web</li>
+          <li>Print</li>
+        </ul>
+        
+    </div>
+    <div class="imgs-container">
+<div class="box">
+  <img src="images/shuffle-01.jpg" alt="">
+  <div class="caption">
+    <h4>awsome image</h4>
+    <p>Photography</p>
+  </div>
+</div>
+
+<div class="box">
+  <img src="images/shuffle-02.jpg" alt="">
+  <div class="caption">
+    <h4>awsome image</h4>
+    <p>Photography</p>
+  </div>
+</div>
+
+<div class="box">
+  <img src="images/shuffle-03.jpg" alt="">
+  <div class="caption">
+    <h4>awsome image</h4>
+    <p>Photography</p>
+  </div>
+</div>
+
+<div class="box">
+  <img src="images/shuffle-04.jpg" alt="">
+  <div class="caption">
+    <h4>awsome image</h4>
+    <p>Photography</p>
+  </div>
+</div>
+
+<div class="box">
+  <img src="images/shuffle-05.jpg" alt="">
+  <div class="caption">
+    <h4>awsome image</h4>
+    <p>Photography</p>
+  </div>
+</div>
+
+<div class="box">
+  <img src="images/shuffle-06.jpg"alt="">
+  <div class="caption">
+    <h4>awsome image</h4>
+    <p>Photography</p>
+  </div>
+</div>
+
+<div class="box">
+  <img src="images/shuffle-07.jpg" alt="">
+  <div class="caption">
+    <h4>awsome image</h4>
+    <p>Photography</p>
+  </div>
+</div>
+
+<div class="box">
+  <img src="images/shuffle-08.jpg" alt="">
+  <div class="caption">
+    <h4>awsome image</h4>
+    <p>Photography</p>
+  </div>
+</div>
+
+
+    </div>
+<div class="more-btn">
+  <a >More</a>
+</div>
+    </div>
+     <!-- end portfolio -->
+
+     <!-- start video awesome -->
+<div class="video">
+  <video autoplay muted loop src="images/awesome-video.mp4"></video>
+<div class="text">
+  <h3>super awesome video here</h3>
+<p>its all you need</p>
+
+<div class="more-btn">
+  <a > see More</a>
+</div>
+</div>
+
+</div>
+
+
+      <!-- end video awesome -->
+
+      <!-- start about -->
+      <div class="about">
+        <div class="container">
+          
+            <div class="main-heading">
+              <h2>About</h2>
+              <p>
+                Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem. Mauris blandit aliquet elit, eget
+                tincidunt.
+              </p>
+            </div>
+            <div class="img-design">
+              <img src="./images/about.png" alt="">
+            </div>
+            </div>
+        </div>
+        
+     
+
+
+
+      <!-- end about -->
+
+
+      <!-- start stats -->
+<div class="stats">
+  <div class="container">
+    <div class="col">
+      <div class="icon">
+        <i class="fas fa-mug-hot"></i>
+      </div>
+      <h2>1.236</h2>
+      <p>coffee drinks</p>
+    </div>
+    <div class="col">
+      <div class="icon">
+        <i class="fas fa-mug-hot"></i>
+      </div>
+      <h2>1.236</h2>
+      <p>coffee drinks</p>
+    </div>
+    <div class="col">
+      <div class="icon">
+        <i class="fas fa-mug-hot"></i>
+      </div>
+      <h2>1.236</h2>
+      <p>coffee drinks</p>
+    </div>
+    <div class="col">
+      <div class="icon">
+        <i class="fas fa-mug-hot"></i>
+      </div>
+      <h2>1.236</h2>
+      <p>coffee drinks</p>
+    </div>
+</div>
+</div>
+
+      <!-- end stats -->
+
+
+      <!-- start skills -->
+<div class="our-skills">
+  <div class="container">
+    <div class="testimonials">
+      <h3>testimonials</h3>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus laboriosam, illo ipsum accusantium quasi ipsa enim quibusdam molestiae facere quae dolor minima velit volup</p>
+<div class="content">
+  <img src="images/skills-01.jpg" alt="">
+  <div class="text">
+    Lorem ipsum dolor, sit amet consectetur adipisicing elit. In tenetur adipisci vero ex deserunt molestiae a minima placeat, sapiente perspiciatis praesentium maxime laborum illum hic distinctio, par
+ 
+ <p>John Doe ,CEO</p> </div>
+</div>
+<div class="content">
+  <img src="images/skills-02.jpg" alt="">
+  <div class="text">
+    Lorem ipsum dolor, sit amet consectetur adipisicing elit. In tenetur adipisci vero ex deserunt molestiae a minima placeat, sapiente perspiciatis praesentium maxime laborum illum hic distinctio, par
+ 
+ <p>John Doe ,CEO</p> </div>
+</div>
+<Ul class="bullets">
+  <li></li>
+  <li class="active">
+  </li>
+  <li></li>
+</Ul>
+    </div>
+    <div class="skills">
+  
+  <h3>skills</h3>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus laboriosam, illo ipsum accusantium quasi ipsa enim quibusdam molestiae facere quae dolor minima velit volup</p>
+    <div class="progress-holder">
+      <h4>Adobe</h4>
+      <div class="prog">
+        <span style="width: 90%" data-progress="90%"> </span>
+      </div>
+    </div>
+
+    <div class="progress-holder">
+      <h4>html & css</h4>
+      <div class="prog">
+        <span style="width: 85%"  data-progress="80%"> </span>
+      </div>
+    </div>
+
+
+    <div class="progress-holder">
+      <h4>javascript</h4>
+      <div class="prog">
+        <span style="width: 80%"  data-progress="80%" > </span>
+      </div>
+    </div>
+
+    <div class="progress-holder">
+      <h4>php</h4>
+      <div class="prog">
+        <span style="width: 90%"  data-progress="90%"> </span>
+      </div>
+    </div>
+   
+  </div>
+</div>
+</div>
+
+      <!-- end skills -->
+
+
+
+      <!-- start quotes -->
+<div class="quotes">
+  <div class="container">
+<h3>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Architecto aliquid exercitationem laudantium ex illum ea odio ullam ipsam, porro impedit natus, velit alias et blanditiis reiciendis of</h3>
+<p>John Doe</p>
+</div>
+</div>
+
+      <!-- end quotes -->
+
+
+      <!-- start price -->
+      <div class="price">
+<div class="container">
+  <div class="main-heading">
+    <h2>About</h2>
+    <p>
+      Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem. Mauris blandit aliquet elit, eget
+      tincidunt.
+    </p>
+    </div>
+    <div class="content">
+  <div class="column">
+    <h4>Basic</h4>
+    <p>19 <span> /Mo</span></p>
+
+  <div class="features">
+    <ul>
+      <li>Feature NO 1</li>
+      <li>Extra Feature</li>
+      <li>Extra Feature No 2</li>
+      <li>Feature</li>
+    </ul>
+  </div>
+  <a href="">Buy Now</a>
+  </div>
+
+
+  <div class="column">
+    <h4>premium</h4>
+    <p>29 <span> /Mo</span></p>
+
+  <div class="features">
+    <ul>
+      <li>Feature NO 1</li>
+      <li>Extra Feature</li>
+      <li>Extra Feature No 2</li>
+      <li>Feature</li>
+    </ul>
+  </div>
+  <a href="">Buy Now</a>
+  </div>
+
+
+  <div class="column">
+    <h4>Pro</h4>
+    <p>39 <span> /Mo</span></p>
+
+  <div class="features">
+    <ul>
+      <li>Feature NO 1</li>
+      <li>Extra Feature</li>
+      <li>Extra Feature No 2</li>
+      <li>Feature</li>
+    </ul>
+  </div>
+  <a href="">Buy Now</a>
+  </div>
+
+
+  <div class="column">
+    <h4>Platinium</h4>
+    <p>49 <span> /Mo</span></p>
+
+  <div class="features">
+    <ul>
+      <li>Feature NO 1</li>
+      <li>Extra Feature</li>
+      <li>Extra Feature No 2</li>
+      <li>Feature</li>
+    </ul>
+  </div>
+  <a href="">Buy Now</a>
+  </div>
+</div>
+<div class="contact">
+  <p>Contact us if you have special request </p>
+  <a href=""> Contact Us </a>
+</div>
+</div>
+</div>
+      <!-- end price -->
+
+
+      <!-- start subscribe -->
+<div class="subscribe">
+<div class="container">
+
+    <form action="">
+      <i class="far fa-envelope fa-lg"></i>
+      <input type="email" name="mail" placeholder="Your Email">
+      <input type="submit" value="Subscribe">
+    </form>
+  <p>Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem. Mauris blan dit aliquet elit, eget tincidunt.</p>
+
+</div>
+</div>
+
+      <!-- end subscribe -->
+
+      <!-- start contact -->
+      <div class="contactus">
+        <div class="container">
+          
+            <div class="main-heading">
+              <h2>Contact us</h2>
+              <p>
+                Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem. Mauris blandit aliquet elit, eget
+                tincidunt.
+              </p>
+            </div>
+            <div class="content">
+              <form action="">
+                <input class="main-input" type="text" name="name" placeholder="Your Name">
+                <input class="main-input" type="email" name="mail" placeholder="Your Email">
+                <textarea class="main-input" name="message" placeholder="Your Message"></textarea>
+                <input type="submit" value="Send Message">
+              </form>
+              <div class="info">
+                <h4>Get In Touch</h4>
+                <span class="phone">+00 123.456.789</span>
+                <span class="phone">+00 123.456.789</span>
+                <h4>Where We Are</h4>
+                <address>Awesome Address 17<br>New York, NYC<br>123-4567-890<br>USA</address>
+              </div>
+            </div>
+            </div>
+            </div>
+
+
+      <!-- end contact -->
+
+
+      <!-- start footer -->
+<div class="footer">
+  <div class="container">
+  <img src="./images/logo.png" alt="">
+  <div class="social">
+    <h3>We are social </h3>
+    <div class="social-icons">
+      <i class="fab fa-facebook-f"></i>
+      <i class="fab fa-twitter"></i>
+      <i class="fas fa-home"></i>
+      <i class="fab fa-linkedin"></i>
+    </div>
+<p> © 2021  <span>Kasper</span> All Right Reserved</p>
+
+  </div>
+</div>
+</div>
+
+      <!-- end footer -->
+  </body>
+</html>
